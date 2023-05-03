@@ -359,9 +359,23 @@ padding-left: 40px;
 }
 
 .container {
-  max-width: 1140px;
-  margin: 0 auto;
-  margin-left: 140px;
+  position: absolute;
+  left: 0;
+  margin: 40px;
+  width: 531.624;
+  padding: 16px;
+  background-color: white;
+  margin-top: 0px;
+}
+
+.container-alert {
+position: absolute;
+left: 0;
+margin: 40px;
+width: 531.624;
+padding: 16px;
+background-color: white;
+margin-top: 0px;
 }
 
 .book-ticket{
@@ -799,3 +813,23 @@ color: #fff;
 font-size: 20px;
 cursor: pointer;
 } */
+
+.container-footer {
+  position: relative;
+  width: 100%;
+  margin: 0px 0px 0px 240px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+footer ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  padding:10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
